@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+  background: url('../Images/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 150px;
+  margin: 0px 80px 0px -150px;
+}
+.side-menu {
+  /* width: 900; */
+  height: 100px;
+  display: flex;
+  margin: 0px 230px 0px 80px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+.side-menu li a {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 15px;
+  color: #000;
+}
+.side-menu li a:hover {
+  color: #ff9721;
+  border-bottom: #ff9721 2px solid;
+}
+.letstalk-button {
+  width: 100px;
+  height: 50px;
+  background-color: #ff9721;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px -150px 0px 0px;
+}
+
+.hero-container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  width: auto;
+  height: 530px;
+  background-color: #fbf5f5;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 100px;
+  margin-bottom: 50px;
+}
+.hero-contents {
+  flex: 1;
+}
+.hero-txt {
+  color: #443c3c;
+  font-size: 82px;
+  margin-right: 300px;
+}
+.hero-txt span {
+  color: #ef4910;
+}
+.hero-img {
+  width: 500px;
+  height: 500px;
+  background: url('../Images/Hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 800px;
+  margin: 0px 80px 0px -300px;
+}
+.our-services-txt {
+  font-size: 62px;
+  font-family: 'Roboto Black';
+  color: #404040;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  /* background-color: #ff9721; */
+}
+.line {
+  width: 280px;
+  height: 6px;
+  background-color: #ff9721;
+  margin: 0px 0px 50px 535px;
+}
+.services-container {
+  /* background-color: #000; */
+  height: 1500px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.services {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  margin: 20px 4px;
+  padding: 0px 30px;
+  color: #000;
+  background-color: #fbf5f5;
+  text-align: center;
+  flex-basis: 330px;
+}
+
+.services-container .custom-development .service-icons {
+  background: url('../Images/web-development.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .web-development .service-icons {
+  background: url('../Images/web-page.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .mobile-app-development .service-icons {
+  background: url('../Images/mobile-app-dev.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .graphics-design .service-icons {
+  background: url('../Images/branding-logo-design.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .social-media-marketing .service-icons {
+  background: url('../Images/mobile-marketing.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .search-engine-markeing .service-icons {
+  background: url('../Images/seo.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .digital-advertising .service-icons {
+  background: url('../Images/ad.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .content-marketing .service-icons {
+  background: url('../Images/digital-marketing.png');
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.services-container .email-marketing .service-icons {
+  background: url('../Images/email-address.png');
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: aqua; */
+
+  outline: none;
+}
+.service-icons {
+  width: 70px;
+  height: 120px;
+  /* background-color: aqua; */
+
+  /* margin: 0px 80px 0px -150px; */
+}
+.services-container .service-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ef4910;
+  margin-top: -40px;
+}
+.services-container .service-description {
+  color: #635858;
+  margin-bottom: 50px;
+}
