@@ -56,6 +56,9 @@ a {
   align-items: center;
   margin: 0px -150px 0px 0px;
 }
+.letstalk-button:hover {
+  opacity: 0.7;
+}
 
 .hero-container {
   font-family: Arial, Helvetica, sans-serif;
@@ -90,8 +93,8 @@ a {
   background-size: 800px;
   margin: 0px 80px 0px -300px;
 }
-.our-services-txt {
-  font-size: 62px;
+.headers {
+  font-size: 52px;
   font-family: 'Roboto Black';
   color: #404040;
   display: flex;
@@ -100,10 +103,10 @@ a {
   /* background-color: #ff9721; */
 }
 .line {
-  width: 280px;
-  height: 6px;
+  width: 200px;
+  height: 5px;
   background-color: #ff9721;
-  margin: 0px 0px 50px 535px;
+  margin: 0px 0px 50px 577px;
 }
 .services-container {
   /* background-color: #000; */
@@ -208,4 +211,67 @@ a {
 .services-container .service-description {
   color: #635858;
   margin-bottom: 50px;
+}
+.latest-post-container {
+  /* background-color: #000; */
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.latest-post {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-items: center;
+  align-items: center;
+  margin: 10px 4px;
+  padding: 20px 30px;
+  color: #635858;
+  background-color: #fbf5f5;
+  text-align: center;
+  flex-basis: 350px;
+  text-align: start;
+}
+.latest-post-container .first-post .post-image {
+  background: url('../Images/1_q27uoZSHRNRHydkC7jGixg.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: aqua;
+  width: 300px;
+  height: 180px;
+}
+.latest-post-container .second-post .post-image {
+  background: url('../Images/best-digital-marketing-blogs-624x429.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: aqua;
+  width: 300px;
+  height: 180px;
+}
+.latest-post-container .third-post .post-image {
+  background: url('../Images/What\ Is\ SEO\ And\ Why\ Is\ It\ Important_.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: aqua;
+  width: 300px;
+  height: 180px;
+}
+.post-image {
+  margin-bottom: 30px;
+}
+.post-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 300px;
+}
+.post-date {
+  font-size: 16px;
+  width: 300px;
+  margin-bottom: 30px;
 }
