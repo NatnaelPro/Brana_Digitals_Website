@@ -311,12 +311,12 @@ header{
   color: #ffffff;
 }
 .footer {
-  height: 370px;
+  height: 300px;
   background-color: #404040;
   color: #fff;
   display: flex;
   justify-content: space-around;
-  padding: 20px 20px;
+  padding: 18px 20px;
 }
 .footers{
   flex-basis: 300px;
@@ -332,8 +332,8 @@ header{
 }
 
 .footer-about .logo-img{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background: url('../Images/brana_updated_transparent\ \(2\).png');
   background-repeat: no-repeat;
   background-position: center;
@@ -426,6 +426,9 @@ header{
 } 
 .footer li a{
   font-size: 13px;
+}
+.footer li a:hover{
+  color: #FF9721;
 }
 .copyright{
   height: 35px;
