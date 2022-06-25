@@ -161,7 +161,7 @@ header{
   outline: none;
 }
 .services-container .search-engine-markeing .service-icons {
-  background: url('../Images/seo.png');
+  background: url('../Icons/seo.svg');
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
