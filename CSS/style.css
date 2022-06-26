@@ -432,9 +432,7 @@ header{
   width: auto;
   height: 452px;
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: flex-start;
-  /* background-color: blueviolet; */
   margin-top: -40px;
   padding: 0px 0px 10px 50px;
 }
@@ -445,7 +443,6 @@ header{
   flex-direction: column;
   justify-content: space-evenly;
   padding: 0px 150px 0px 50px ;
-  /* background-color: #FF8800; */
 }
 .contact-inputs p{
   font-size: 20px;
@@ -461,7 +458,6 @@ header{
   margin-bottom: 10px;
 }
 .contact-inputs .message{
-  /* margin-top: -10px; */
   font-size: 16px;
   height: 100px;
   border-radius: 15px;
