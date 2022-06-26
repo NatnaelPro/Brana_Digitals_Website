@@ -433,7 +433,7 @@ header{
   height: 452px;
   display: flex;
   align-items: flex-start;
-  margin-top: -40px;
+  margin: -40px 0px 50px 0px;
   padding: 0px 0px 10px 50px;
 }
 .contact-inputs{
@@ -536,4 +536,201 @@ header{
 }
 
 /* Web Deveopment services */
+.web-section-container{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Images/web-development-image.svg");
+  width: auto;
+  height: 529px;
+  padding: 50px 100px;
+  margin-bottom: 50px;
+}
+.web-section-container .web-head{
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.web-section-container .main-content{
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+  /* align-content: space-between; */
+  /* justify-items: flex-end; */
+  /* flex-basis: 300px; */
+  /* background-color: #FF8800; */
+}
+.web-section-container .main-content p{
+  font-weight: 300;
+  line-height: 2.1;
+  flex-basis: 600px;
 
+}
+.web-section-container .main-content a{
+  border-radius: 100px;
+  font-size: 45px;
+  font-weight: 500;
+  width: 300px;
+  height: 100px;
+  background-color: #FF8800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px 0px 0px 150px;
+
+}
+.web-section-container .main-content a:hover{
+  opacity: 0.8;
+}
+
+.technologies-container{
+  width: auto;
+  margin-top: -20PX;
+  height: 450px;
+  background-color: #FBF5F5;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 65px 60px;
+  margin-bottom: 50px;
+}
+.technologies{
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.technologies .html5-logo{
+  width: 80px;
+  height: 80px;
+  background: url('../Icons/html5.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .css3-logo{
+  width: 80px;
+  height: 80px;
+  background: url('../Icons/css3.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .bootstrap-logo{
+  width: 80px;
+  height: 80px;
+  background: url('../Icons/bootstrap.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .javascript-logo{
+  width: 80px;
+  height: 80px;
+  background: url('../Icons/javaScript.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .react-logo{
+  width: 80px;
+  height: 80px;
+  background: url('../Icons/react.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .angular-logo{
+  width: 80px;
+  height: 90px;
+  background: url('../Icons/angular.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .nodejs-logo{
+  width: 80px;
+  height: 90px;
+  background: url('../Icons/nodejs.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .php-logo{
+  width: 80px;
+  height: 80px;
+  background: url('../Icons/php.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px;
+}
+.technologies .logos{
+  margin-bottom: 40px;
+}
+.technologies .tech-name{
+  color: #FF9721;
+  margin-bottom: 50px;
+}
+.facts-about-us{
+  width: 1200px;
+  height: 400px;
+  margin: 0px 0px 50px 76px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FF8800;
+}
+.facts-about-us .fact-titles{
+  width: 1200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 35px;
+  background-color: #FBF5F5;
+}
+.facts-about-us .fact-titles .facts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.facts-about-us .fact-titles .fact{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #413B3B;
+}
+.facts-about-us .fact-titles .roket-icon{
+  width: 40px;
+  height: 40px;
+  background: url('../Icons/roket.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 40px;
+}
+.facts-about-us .fact-titles .resposive-icon{
+  width: 40px;
+  height: 40px;
+  background: url('../Icons/resposive.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 40px;
+}
+.facts-about-us .fact-titles .user-friendly-icon{
+  width: 40px;
+  height: 40px;
+  background: url('../Icons/man-dev.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 40px;
+}
