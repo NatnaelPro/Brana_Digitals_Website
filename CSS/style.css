@@ -693,7 +693,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* padding: 60px; */
+  /* padding: 6px; */
   background-color: #FBF5F5;
 }
 .facts-about-us .fact-titles .facts{
@@ -715,8 +715,9 @@ header{
   background-color: #EF4910;
   color: #EFECEC;
   display: flex;
-  padding: 0px;
+  /* padding: 0px; */
   justify-content: center;
+  /* align-items: center; */
 }
 .facts-about-us .fact-titles .active-fact .fact{
   color: #EFECEC;
