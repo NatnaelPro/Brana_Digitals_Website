@@ -679,7 +679,7 @@ header{
   color: #FF9721;
   margin-bottom: 50px;
 }
-.facts-about-us{
+.facts-about-us-container{
   width: 1200px;
   height: 500px;
   margin: 0px 0px 50px 76px;
@@ -687,7 +687,7 @@ header{
   flex-direction: column;
   background-color: #FF8800;
 }
-.facts-about-us .fact-titles{
+.facts-about-us-container .fact-titles{
   width: 1200px;
   height: 150px;
   display: flex;
@@ -696,7 +696,7 @@ header{
   /* padding: 6px; */
   background-color: #FBF5F5;
 }
-.facts-about-us .fact-titles .facts{
+.facts-about-us-container .fact-titles .facts{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -705,13 +705,13 @@ header{
   /* background-color: #EF4910; */
   padding-top: 40px;
 }
-.facts-about-us .fact-titles .fact{
+.facts-about-us-container .fact-titles .fact{
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 500;
   color: #413B3B;
 }
-.facts-about-us .fact-titles .active-fact{
+.facts-about-us-container .fact-titles .active-fact{
   background-color: #EF4910;
   color: #EFECEC;
   display: flex;
@@ -719,10 +719,10 @@ header{
   justify-content: center;
   /* align-items: center; */
 }
-.facts-about-us .fact-titles .active-fact .fact{
+.facts-about-us-container .fact-titles .active-fact .fact{
   color: #EFECEC;
 }
-.facts-about-us .fact-titles .roket-icon{
+.facts-about-us-container .fact-titles .roket-icon{
   width: 50px;
   height: 60px;
   /* fill: #EF4910; */
@@ -732,7 +732,7 @@ header{
   outline: none;
   background-size: 40px;
 }
-.facts-about-us .fact-titles .resposive-icon{
+.facts-about-us-container .fact-titles .resposive-icon{
   width: 50px;
   height: 60px;
   background: url('../Icons/resposive.svg');
@@ -741,7 +741,7 @@ header{
   outline: none;
   background-size: 50px;
 }
-.facts-about-us .fact-titles .user-friendly-icon{
+.facts-about-us-container .fact-titles .user-friendly-icon{
   width: 50px;
   height: 60px;
   background: url('../Icons/man-dev.svg');
@@ -750,7 +750,7 @@ header{
   outline: none;
   background-size: 50px;
 }
-.facts-about-us .facts-descriptions{
+.facts-about-us-container .facts-descriptions{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -759,7 +759,7 @@ header{
   /* color: #EFEFEF; */
   padding: 60px;
 }
-.facts-about-us .facts-descriptions .fact-icon{
+.facts-about-us-container .facts-descriptions .fact-icon{
   width: 200px;
   height: 200px;
   background: url('../Icons/seo-new.svg');
@@ -770,11 +770,52 @@ header{
   margin-left: -80px;
   /* background-color: #fbf5f5; */
 }
-.facts-about-us .facts-descriptions .fact-description{
+.facts-about-us-container .facts-descriptions .fact-description{
   width: 600px;
   font-size: 25px;
   color: #EFEFEF;
   font-weight: 200;
   line-height: 1.7;
 
+}
+
+.dev-process-container{
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: ; */
+  flex-wrap: wrap;
+}
+.dev-process-container .processes{
+  flex-basis: 350px;
+  height: 300px;
+  margin-bottom: 50px;
+  background-color: #FBF5F5;
+  display: flex;
+  padding: 30px;
+  border-radius: 5px;
+}
+.dev-process-container .processes .process-description{
+  width: 200px;
+  height: 100px;
+  /* background-color: blueviolet; */
+  border-left: #413B3B solid 2px;
+}
+.dev-process-container .processes .process{
+  width: 145px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #413B3B;
+}
+.dev-process-container .processes .process-number{
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+  font-size: 80px;
+  font-weight: 900;
+  color: #EF4910;
+}
+.processes:hover + .process-description{
+  background-color: blueviolet;
 }
