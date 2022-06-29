@@ -552,7 +552,7 @@ header {
   flex-direction: column;
   background-image: url('../Images/web-development-image.svg');
   width: auto;
-  height: 529px;
+  height: 600px;
   padding: 50px 100px;
   margin-bottom: 50px;
 }
@@ -563,6 +563,7 @@ header {
 }
 .web-section-container .main-content {
   display: flex;
+  flex-direction: column;
   /* justify-content: space-between; */
   /* align-items: flex-end; */
   /* align-content: space-between; */
@@ -571,21 +572,24 @@ header {
   /* background-color: #FF8800; */
 }
 .web-section-container .main-content p {
+  color: #E4E4E4;
   font-weight: 300;
   line-height: 2.1;
-  flex-basis: 600px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  /* flex-basis: 600px; */
 }
 .web-section-container .main-content a {
-  border-radius: 100px;
-  font-size: 45px;
+  /* border-radius: 100px; */
+  font-size: 35px;
   font-weight: 500;
-  width: 300px;
-  height: 100px;
+  width: 280px;
+  height: 80px;
   background-color: #ff8800;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 65px 0px 0px 150px;
+  /* margin: 65px 0px 0px 150px; */
 }
 .web-section-container .main-content a:hover {
   opacity: 0.8;
@@ -720,7 +724,7 @@ header {
   color: #413b3b;
 }
 .facts-about-us-container .fact-titles .active-fact {
-  background-color: #ef4910;
+  background-color: #FF8800;
   color: #efecec;
   display: flex;
   /* padding: 0px; */
@@ -762,7 +766,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ef4910;
+  background-color: #FF8800;
   height: 350px;
   /* color: #EFEFEF; */
   padding: 60px;
@@ -782,7 +786,7 @@ header {
   width: 600px;
   font-size: 25px;
   color: #efefef;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.7;
 }
 
@@ -830,7 +834,7 @@ header {
   align-items: center;
   font-size: 80px;
   font-weight: 900;
-  color: #ef4910;
+  color: #FF8800;
   /* background-color: #000; */
 }
 
@@ -872,6 +876,6 @@ header {
   /* background-color: black; */
   font-size: 80px;
   font-weight: 900;
-  color: #ef4910;
+  color: #FF8800;
   margin-top: -20px;
 }
