@@ -546,7 +546,7 @@ header {
   margin: 0px 0px 50px 75px;
 }
 
-.web-section-container {
+.services-section-container {
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -556,12 +556,13 @@ header {
   padding: 50px 100px;
   margin-bottom: 50px;
 }
-.web-section-container .web-head {
+.services-section-container .services-head {
   font-size: 65px;
   font-weight: 600;
   margin-bottom: 60px;
+  width: 900px;
 }
-.web-section-container .main-content {
+.services-section-container .main-content {
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
@@ -571,7 +572,7 @@ header {
   /* flex-basis: 300px; */
   /* background-color: #FF8800; */
 }
-.web-section-container .main-content p {
+.services-section-container .main-content p {
   color: #E4E4E4;
   font-weight: 300;
   line-height: 2.1;
@@ -579,7 +580,7 @@ header {
   margin-bottom: 50px;
   /* flex-basis: 600px; */
 }
-.web-section-container .main-content a {
+.services-section-container .main-content a {
   /* border-radius: 100px; */
   font-size: 35px;
   font-weight: 500;
@@ -591,7 +592,7 @@ header {
   align-items: center;
   /* margin: 65px 0px 0px 150px; */
 }
-.web-section-container .main-content a:hover {
+.services-section-container .main-content a:hover {
   opacity: 0.8;
 }
 
@@ -697,6 +698,8 @@ header {
   margin: 0px 0px 50px 76px;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
   background-color: #ff8800;
 }
 .facts-about-us-container .fact-titles {
@@ -878,4 +881,176 @@ header {
   font-weight: 900;
   color: #FF8800;
   margin-top: -20px;
+}
+
+/* Search Engine Optimization */
+
+.pro-seo-description{
+  color: #473E3E;
+  font-size: 20px;
+  width: 800px;
+  margin: 0px 0px 80px 80px ;
+  line-height: 1.5;
+}
+.website-analysis-icon{
+  width: 60px;
+  height: 70px;
+  /* fill: #EF4910; */
+  background: url('../Icons/website-analysis.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 60px; 
+}
+.keywords-analysis-icon{
+  width: 60px;
+  height: 70px;
+  /* fill: #EF4910; */
+  background: url('../Icons/keyword-anlysis.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 60px; 
+}
+.content-icon{
+  width: 60px;
+  height: 70px;
+  /* fill: #EF4910; */
+  background: url('../Icons/content.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 60px; 
+}
+.competitive-analysis-icon{
+  width: 200px;
+  height: 250px;
+  background: url('../Icons/competitive-analysis.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 200px;
+  margin-left: -80px;
+  /* background-color: #fbf5f5; */
+}
+.seo-tech{
+  margin-bottom: 100px;
+}
+.seo-technologies-container{
+  height: 1150px;
+  display: flex;
+  background-color: #fff;
+  /* justify-content: end; */
+}
+.seo-logo{
+  margin: 0px 50px 40px 50px;
+}
+.technologies .google-key-planner {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/google-key-planner.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .google-page-speed {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/google-page-speed.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .scaromingfrog {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/scaromingfrog.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .content-king {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/content-king.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .semrush {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/semrush.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .yoast {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/yoast.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .moz {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/moz.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .can-I-rank {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/can-I-rank.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .botify {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/botify.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+
+.technologies .google-search-console {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/google-search-console.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .woorank {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/woorank.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .seo-site-checkup {
+  width: 350px;
+  height: 150px;
+  background: url('../Images/seo-site-checkup.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
 }
