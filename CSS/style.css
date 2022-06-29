@@ -539,11 +539,11 @@ header {
 /* Web Deveopment services */
 
 .service-headers{
-  padding-left: 50px;
+  margin-left: 70px;
   justify-content: start;
 }
 .service-line{
-  margin: 0px 0px 50px 55px;
+  margin: 0px 0px 50px 75px;
 }
 
 .web-section-container {
@@ -798,8 +798,8 @@ header {
   /* margin-bottom: 50px; */
 }
 .dev-process-container .processes {
-  flex-basis: 350px;
-  height: 300px;
+  flex-basis: 400px;
+  height: 350px;
   margin-bottom: 50px;
   background-color: #fbf5f5;
   display: flex;
@@ -808,6 +808,10 @@ header {
   /* background-color: crimson; */
 }
 
+.dev-process-container .processes .main-area:first-child{
+  border-left: #413b3b solid 3px;
+  height: 100px;
+}
 .dev-process-container .processes .process-description {
   visibility: hidden;
   width: 200px;
@@ -816,13 +820,9 @@ header {
   /* background-color: blueviolet; */
   /* display: none; */
 }
-.dev-process-container .processes .main-area:first-child{
-  border-left: #413b3b solid 2px;
-  height: 100px;
-}
 .dev-process-container .processes .process {
   width: 170px;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 26px;
   color: #413b3b;
   /* background-color: aqua; */
@@ -850,7 +850,7 @@ header {
   font-weight: 300px;
   line-height: 1.5;
   /* background-color: blueviolet; */
-  padding-top: 60px;
+  padding-top: 80px;
 
   /* flex-basis: 35px; */
   /* background-color: blueviolet; */
@@ -861,7 +861,7 @@ header {
 }
 .dev-process-container .processes .process-on-hover {
   width: 200px;
-  margin-top: -280px;
+  margin-top: -270px;
   /* margin-bottom: 30px; */
   font-size: 26px;
   /* background-color: aqua; */
