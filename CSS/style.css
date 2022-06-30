@@ -561,16 +561,11 @@ header {
   font-weight: 600;
   margin-bottom: 60px;
   width: 900px;
+  word-spacing: 5px;
 }
 .services-section-container .main-content {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* align-items: flex-end; */
-  /* align-content: space-between; */
-  /* justify-items: flex-end; */
-  /* flex-basis: 300px; */
-  /* background-color: #FF8800; */
 }
 .services-section-container .main-content p {
   color: #E4E4E4;
@@ -578,10 +573,8 @@ header {
   line-height: 2.1;
   font-size: 20px;
   margin-bottom: 50px;
-  /* flex-basis: 600px; */
 }
 .services-section-container .main-content a {
-  /* border-radius: 100px; */
   font-size: 35px;
   font-weight: 500;
   width: 280px;
@@ -605,6 +598,8 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 65px 60px;
+}
+.web-technologies-container{
   margin-bottom: 50px;
 }
 .technologies {
@@ -885,12 +880,12 @@ header {
 
 /* Search Engine Optimization */
 
-.pro-seo-description{
+.main-services-description{
   color: #473E3E;
   font-size: 20px;
-  width: 800px;
+  width: 1200px;
   margin: 0px 0px 80px 80px ;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 .website-analysis-icon{
   width: 60px;
@@ -933,18 +928,11 @@ header {
   margin-left: -80px;
   /* background-color: #fbf5f5; */
 }
-.seo-tech{
-  margin-bottom: 100px;
-}
 .seo-technologies-container{
-  height: 1150px;
-  display: flex;
+  height: 1000px;
   background-color: #fff;
-  /* justify-content: end; */
 }
-.seo-logo{
-  margin: 0px 50px 40px 50px;
-}
+
 .technologies .google-key-planner {
   width: 350px;
   height: 150px;
@@ -1053,4 +1041,107 @@ header {
   background-position: center;
   outline: none;
   background-size: 350px;
+}
+
+/* Email marketing page */
+
+.email-process-description{
+  /* visibility: hidden; */
+  width: 290px;
+  height: 260px;
+  font-size: 18px;
+  font-weight: 300px;
+  line-height: 1.5;
+  padding-top: 80px;
+  color: #413b3b;
+  /* background-color: #ff8800; */
+}
+.process-numbers{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: 900;
+  color: #FF8800;
+  margin-top: -20px;
+  /* margin-left: 50px; */
+  /* background-color: blueviolet; */
+}
+.technologies .mainchimp{
+  width: 350px;
+  height: 150px;
+  background: url('../Images/mainchimp.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .campaign-monitor{
+  width: 350px;
+  height: 150px;
+  background: url('../Images/campaign-monitor.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .hubspot{
+  width: 350px;
+  height: 150px;
+  background: url('../Images/hubspot.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .campaign{
+  width: 350px;
+  height: 150px;
+  background: url('../Images/campaign.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .email-octopus{
+  width: 350px;
+  height: 150px;
+  background: url('../Images/email-octopus.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .adobe-campaign{
+  width: 350px;
+  height: 100px;
+  background: url('../Images/adobe-campaign.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 200px;
+}
+.technologies .active-campaign{
+  width: 350px;
+  height: 150px;
+  background: url('../Images/active-campaign.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.technologies .convert-kit{
+  width: 350px;
+  height: 150px;
+  background: url('../Images/convert-kit.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 350px;
+}
+.email-technologies-container{
+  height: 800px;
+  margin-bottom: -50px;
+  background-color: #fff;
 }
