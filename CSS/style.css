@@ -287,6 +287,7 @@ header {
   padding: 15px;
   font-size: 16px;
   outline: none;
+  margin-left: auto;
 }
 .subscripe-container .sub-btn {
   width: 120px;
@@ -296,6 +297,7 @@ header {
   font-weight: bolder;
   background-color: #413b3b;
   color: #ffffff;
+  margin-right: 50px;
 }
 .footer {
   height: 310px;
@@ -1331,8 +1333,9 @@ header {
 }
 
 .policy-paragraph{
-  padding: 10px 70px 10px 20px;
+  padding: 10px 70px 10px 70px;
   font-size: 20px;
+  line-height: 30px;
   
 }
 .privacy-brana-hyperlink{
@@ -1346,7 +1349,7 @@ header {
   font-size: 30px;
   margin-bottom: 25px;
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 70px;
 }
 .privacy-policy-bullet-list ul {
   list-style-type: disc;
@@ -1356,7 +1359,7 @@ header {
   font-size: 20px;
   padding-right: 70px;
   padding-bottom: 8px;
-  margin-left: 55px;
+  margin-left: 100px;
 
 }
 
@@ -1376,7 +1379,8 @@ header {
   font-size: 20px;
 }
 .terms-paragraph{
-  padding: 10px 50px 10px 20px;
+  padding: 10px 50px 10px 70px;
+  line-height: 30px;
   font-size: 20px;
   
 }
@@ -1391,7 +1395,7 @@ header {
   font-size: 30px;
   margin-bottom: 25px;
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 70px;
 }
 .terms-bullet-list ul {
   list-style-type: disc;
@@ -1403,7 +1407,7 @@ header {
   margin-left: 50px; */
   padding-right: 70px;
   padding-bottom: 8px;
-  margin-left: 55px;
+  margin-left: 100px;
 
 }
 .footer-space{
