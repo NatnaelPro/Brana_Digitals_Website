@@ -1145,3 +1145,170 @@ header {
   margin-bottom: -50px;
   background-color: #fff;
 }
+
+
+/*Mobile App Development Part  */
+
+.dev-types{
+  width: auto;
+  height: 400px;
+  margin: -50px 0px 50px 0px;
+  /* background-color: blueviolet; */
+  padding-left: 100px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;  
+}
+.dev-types .dev-type{
+  width: 400px;
+  height: 300px;
+  background-color: #FBF5F5;
+  /* background-color: aqua; */
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.dev-types .dev-type .dev-type-logo-apple{
+  width: 60px;
+  height: 70px;
+  /* fill: #EF4910; */
+  background: url('../Icons/apple-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 60px; 
+}
+.dev-types .dev-type .dev-type-logo-android{
+  width: 60px;
+  height: 70px;
+  /* fill: #EF4910; */
+  background: url('../Icons/android-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 60px; 
+}
+.dev-types .dev-type .dev-type-logos{
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  /* background-color: yellow; */
+}
+.dev-types .dev-type .dev-type-descr{
+  color: #FF9721;
+  font-size: 20px;
+  width: 250px;
+  /* background-color: #000; */
+  text-align: center;
+  margin-top: 50px;
+}
+.mob-sols{
+  width: auto;
+  height: 1500px;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.mob-sols .mob-sol{
+  flex-basis: 600px;
+  height: 400px;
+  background-color: yellow;
+}
+.mob-sols .mob-sol .mob-sol-header{
+  width: auto;
+  height: 80px;
+  background-color: #EFECEC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+}
+.mob-sols .mob-sol .mob-sol-header .mob-sol-title{
+  font-size: 30px;
+  color: #FF8800;
+}
+.mob-sols .mob-sol .mob-sol-header .mob-sol-rocket-logo{
+  width: 125px;
+  height: 130px;
+  /* fill: #EF4910; */
+  background: url('../Icons/roket.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 120px; 
+  /* background-color: white; */
+  margin-top: -70px;
+}
+.mob-sols .mob-sol .mob-sol-header .mob-sol-reliable-logo{
+  width: 125px;
+  height: 155px;
+  /* fill: #EF4910; */
+  background: url('../Icons/reliable.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 120px; 
+  /* background-color: white; */
+  margin-top: -95px;
+}
+.mob-sols .mob-sol .mob-sol-header .mob-sol-scalable-logo{
+  width: 125px;
+  height: 130px;
+  /* fill: #EF4910; */
+  background: url('../Icons/scalable.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 120px; 
+  /* background-color: white; */
+  margin-top: -70px;
+}
+.mob-sols .mob-sol .mob-sol-header .mob-sol-secure-logo{
+  width: 125px;
+  height: 140px;
+  /* fill: #EF4910; */
+  background: url('../Icons/secure.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 120px; 
+  /* background-color: white; */
+  margin-top: -70px;
+}
+.mob-sols .mob-sol .mob-sol-header .mob-sol-user-friendly-logo{
+  width: 125px;
+  height: 200px;
+  /* fill: #EF4910; */
+  background: url('../Icons/user-friendly.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 90px; 
+  /* background-color: white; */
+  margin-top: -100px;
+}
+.mob-sols .mob-sol .mob-sol-header .mob-sol-multi-functional-logo{
+  width: 150px;
+  height: 130px;
+  /* fill: #EF4910; */
+  background: url('../Icons/multi-functional.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 150px; 
+  /* background-color: white; */
+  margin-top: -70px;
+}
+.mob-sols .mob-sol .mob-sol-description{
+  height: 320px;
+  padding: 30px;
+  font-size: 20px;  
+  color: #404040;
+  line-height: 1.7;
+  background-color: #FBF5F5;
+}
