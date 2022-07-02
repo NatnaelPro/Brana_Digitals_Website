@@ -1531,4 +1531,19 @@ header {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+.about-services-section-container{
+  background-color: #FBF5F5;
+  height: 500px;
+  padding: 100px;
+  margin-bottom: 50px;
+}
+.about-services-section-container .line{
+  margin-left: 475px;
+  margin-bottom: 100px;
+}
+.about-services-section-container .about-main-content{
+  text-align: center;
+  font-size: 30px;
+  color: #404040;
+  line-height: 1.5;
+}
