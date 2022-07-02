@@ -1315,6 +1315,123 @@ header {
   background-color: #FBF5F5;
 }
 
+/* For Graphics Design Page */
+
+.designs-container{
+  width: auto;
+  height: 3050px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-bottom: 50px;
+}
+.design{
+  width: 1200px;
+  height: 425px;
+  display: flex;
+  margin-bottom: 100px;
+  /* background-color: blueviolet; */
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+}
+.main-design{
+  width: 500px;
+  /* background-color: yellow; */
+  color: #635858;
+}
+.design-line{
+  height:4px;
+  background-color: #ff8800;
+  margin-bottom: 50px;
+}
+.design-title{
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.design-description{
+  font-size: 20px;
+  line-height: 1.6;
+}
+.design-picture{
+  width: 500px;
+   /* height: 400px; */
+}
+.logo-design-img{
+  /* width: 5500px; */
+  height: 375px;
+  /* fill: #EF4910; */
+  background: url('../Images/logo-design-img.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 550px; 
+  /* background-color: white; */
+  /* margin-top: -70px; */
+}
+.business-card-design-img{
+  /* width: 5500px; */
+  height: 375px;
+  /* fill: #EF4910; */
+  background: url('../Images/business-card-design-img.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 550px; 
+  /* background-color: white; */
+  /* margin-top: -70px; */
+}
+.billboard-design{
+  /* width: 5500px; */
+  height: 375px;
+  /* fill: #EF4910; */
+  background: url('../Images/billboard-design.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 550px; 
+  /* background-color: white; */
+  /* margin-top: -70px; */
+}
+.cup-and-mug-design{
+  /* width: 5500px; */
+  height: 375px;
+  /* fill: #EF4910; */
+  background: url('../Images/cup-and-mug-design.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 550px; 
+  /* background-color: white; */
+  /* margin-top: -70px; */
+}
+.t-shirt-design{
+  /* width: 5500px; */
+  height: 375px;
+  /* fill: #EF4910; */
+  background: url('../Images/t-shirt-design.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 550px; 
+  /* background-color: white; */
+  /* margin-top: -70px; */
+}
+.menu-design{
+  /* width: 5500px; */
+  height: 375px;
+  /* fill: #EF4910; */
+  background: url('../Images/menu-design.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* outline: none; */
+  background-size: 550px; 
+  /* background-color: white; */
+  /* margin-top: -70px; */
+}
+
 /* Privacy policy section*/
 
 .privacy-policy-header {
@@ -1415,57 +1532,3 @@ header {
   margin-bottom: 100px;
 }
 
-/* Social Media Marketing and Digital Advertising Section */
-
-.social-media-process-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-bottom: 130px;
-  margin-top: 80px;
-}
-.social-media-process-container .processes {
-  flex-basis: 400px;
-  height: 350px;
-  margin-bottom: 50px;
-  background-color: #fbf5f5;
-  display: flex;
-  padding: 30px;
-  border-radius: 5px;
-}
-
-.social-media-bullet-list ul {
-  list-style-type: disc;
-  margin-top: -40px;
-  margin-bottom: 40px;  
-}
-
-.social-media-bullet-list ul li{
-
-  color: #473E3E;
-  font-size: 20px;
-  width: 1200px;
-  margin-left: 120px;
-  margin-bottom: 30px;
-  line-height: 1.7;
-}
-
-.social-media-process-description {
-  width: 290px;
-  height: 260px;
-  font-size: 18px;
-  font-weight: 300px;
-  line-height: 1.5;
-  padding-top: 80px;
-  color: #413b3b;
-}
-.SM-process-numbers {
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 80px;
-  font-weight: 900;
-  color: #FF8800;
-  margin-top: -20px;
-}
