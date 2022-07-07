@@ -40,16 +40,40 @@ header {
   align-items: center;
 }
 .side-menu li a {
+  position: relative;
   width: fit-content;
   height: fit-content;
   padding: 10px;
   background-color: #ffffff;
   margin: 15px;
-  color: #000;
+  color: rgb(73, 67, 67);
+  
 }
+
+.side-menu li a:after {
+  content: '';
+  position: absolute;
+  background-color: #ff9721;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+  color: rgb(73, 67, 67);
+  
+}
+
+.side-menu li a:hover:after {
+  width: 100%;
+}
+
 .side-menu li a:hover {
-  color: #ff9721;
-  border-bottom: #ff9721 2px solid;
+  color: #ff8800;
+}
+
+.active {
+  font-weight: bold;
+  color: #ff8800 !important;
 }
 /* .letstalk-button {
   width: 100px;
