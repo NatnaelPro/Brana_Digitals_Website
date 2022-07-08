@@ -124,7 +124,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 0px 0px 0px 100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .hero-contents {
   flex: 1;
@@ -170,6 +170,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 .services {
   height: 400px;
@@ -188,7 +189,6 @@ header {
   box-shadow: 0 12px 8px 0 rgba(0,0,0,.1);
   transition: .5s;
 }
-
 .services:hover {
   box-shadow: 0 8px 30px 0 rgba(0,0,0,.3);
   margin-top: 10px;
@@ -205,7 +205,7 @@ header {
   /* background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
-  outline: none; */
+  outline: non;e; */
 }
 .services-container .graphics-design .service-icons {
   background: url('../Icons/Graphics-design.svg');
@@ -234,7 +234,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
-}
+};
 .services-container .content-marketing .service-icons {
   background: url('../Images/digital-marketing.png');
   background-size: 80px;
@@ -273,14 +273,18 @@ header {
   margin-bottom: 50px;
   line-height: 1.7;
 }
+
+/* LATEST_POST */
+
 .latest-post-container {
   height: 600px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 200px;
 }
 .latest-post {
-  height: 550px;
+  height: 680px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -293,31 +297,41 @@ header {
   text-align: center;
   flex-basis: 350px;
   text-align: start;
+  box-shadow: 0 12px 8px 0 rgba(0,0,0,.1);
 }
 .latest-post-container .first-post .post-image {
   background: url('../Images/1_q27uoZSHRNRHydkC7jGixg.png');
-  background-size: 300px;
+  /* background-size: 300px;
   background-repeat: no-repeat;
   background-position: center;
   width: 300px;
-  height: 180px;
+  height: 180px; */
 }
 .latest-post-container .second-post .post-image {
   background: url('../Images/best-digital-marketing-blogs-624x429.png');
-  background-size: 300px;
+  /* background-size: 300px;
   background-repeat: no-repeat;
   background-position: center;
   width: 300px;
-  height: 180px;
+  height: 180px; */
 }
 .latest-post-container .third-post .post-image {
   background: url('../Images/What\ Is\ SEO\ And\ Why\ Is\ It\ Important_.png');
-  background-size: 300px;
+  /* background-size: 300px;
   background-repeat: no-repeat;
   background-position: center;
   width: 300px;
+  height: 180px; */
+}
+
+.latest-post-container .latest-post .post-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
   height: 180px;
 }
+
 .post-image {
   margin-bottom: 30px;
 }
@@ -338,6 +352,24 @@ header {
   font-weight: 300;
   line-height: 1.7;
 }
+.latest-post-container .see-more {
+  width: 100px;
+  height: 100px;
+  background: url('../Icons/next_button.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 50px;
+  display: none;
+  cursor: pointer;
+}
+
+.latest-post:hover > .see-more{
+  display: block;
+}
+
+/* SUBSCRIPTION */
+
 .subscripe-container {
   height: 130px;
   background-color: #ff8800;
@@ -370,8 +402,11 @@ header {
   color: #ffffff;
   margin-right: 50px;
 }
+
+/* FOOTER */
+
 .footer {
-  height: 310px;
+  height: 350px;
   background-color: #404040;
   color: #fff;
   display: flex;
@@ -389,6 +424,7 @@ header {
   flex-basis: 350px;
   text-align: center;
   margin: 0px 50px;
+  /* margin-top: 20px; */
 }
 
 .footer-about .logo-img {
@@ -403,6 +439,7 @@ header {
 .footer-about .about-brana {
   line-height: 1.7;
   padding-top: 10px;
+  font-weight: 300;
 }
 .icons {
   padding-top: 20px;
@@ -413,77 +450,87 @@ header {
   align-items: center;
 }
 .icons .fb {
-  width: 25px;
-  height: 25px;
+  /* width: 25px;
+  height: 25px; */
   background: url('../Icons/facebook.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 25px;
+  background-size: 25px; */
 }
 .icons .tw {
-  width: 25px;
-  height: 25px;
+  /* width: 25px;
+  height: 25px; */
   background: url('../Icons/twitter.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 25px;
+  background-size: 25px; */
 }
 .icons .in {
-  width: 25px;
-  height: 25px;
+  /* width: 25px;
+  height: 25px; */
   background: url('../Icons/linkedin.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 25px;
+  background-size: 25px; */
 }
 .icons .tk {
-  width: 25px;
-  height: 25px;
+  /* width: 25px;
+  height: 25px; */
   background: url('../Icons/tiktok.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 25px;
+  background-size: 25px; */
 }
 .icons .ig {
-  width: 25px;
-  height: 25px;
+  /* width: 25px;
+  height: 25px; */
   background: url('../Icons/instagram.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 25px;
+  background-size: 25px; */
 }
 .icons .yt {
-  width: 25px;
-  height: 25px;
+  /* width: 25px;
+  height: 25px; */
   background: url('../Icons/Youtube.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 25px;
+  background-size: 25px; */
 }
 .icons .tg {
+  /* width: 25px;
+  height: 25px; */
+  background: url('../Icons/telegram.svg');
+  /* background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 25px; */
+}
+.icons .fb, .icons .tw, .icons .in, .icons .tk, .icons .ig, .icons .yt, .icons .tg {
   width: 25px;
   height: 25px;
-  background: url('../Icons/telegram.svg');
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
   background-size: 25px;
 }
 .footers .footer-title {
-  font-weight: normal;
-  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 22px;
+  color: hsl(32, 100%, 92%);
 }
 .footer li {
   padding-bottom: 23px;
-}
-.footer li a {
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 280;
 }
 .footer li a:hover {
   color: #ff9721;
