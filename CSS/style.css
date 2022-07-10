@@ -21,7 +21,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .logo {
   width: 150px;
   height: 80px;
@@ -71,7 +70,7 @@ header {
   color: #ff8800;
 }
 
-.active {
+.side-menu .active {
   font-weight: bold;
   color: #ff8800 !important;
 }
@@ -545,7 +544,7 @@ header {
   font-size: 11px;
 }
 
-/* For About Us Page */
+/* For Contact Us Page */
 
 .conatct-container {
   color: #404040;
@@ -1603,6 +1602,7 @@ header {
   color: #FF8800;
   margin-top: -20px;
 }
+
 /* Privacy policy section*/
 
 .privacy-policy-header {
@@ -1718,6 +1718,7 @@ header {
   color: #404040;
   line-height: 1.5;
 }
+
 .blog_hero{ 
 width: auto; 
 height: 477px; 
@@ -1726,51 +1727,57 @@ background-size: 100%;
 } 
 
 .blog_hero_description{ 
-font-family: fantasy; 
-font-size: 35px; 
+font-size: 75px; 
 color: white; 
-padding: 170px 0px 0px 800px; 
-opacity: .8; 
+padding: 130px 0px 0px 750px; 
+/* opacity: 1;  */
+line-height: 1.1;
+font-weight: bolder;
 }
 .blog_option{ 
-display: inline-block; 
+/* display: inline-block;  */
 width: 100%; 
-height: 20px; 
-background: rgb(230, 230, 230); 
-padding:20px 0px 20px 0px; 
+height: 60px; 
+background: #faebeb; 
+padding:20px 0px 20px 0px;
+margin-bottom: 40px; 
 } 
 .blog_option a{ 
 text-decoration: none; 
 color: black; 
-font-size: 14px; 
-padding: 0px 0px 0px 60px; 
+font-size: 17px; 
+padding-left: 80px; 
 } 
+.blog_option .active {
+  background: white;
+  padding: 18px 20px 25px 20px;;
+}
 .blog_container{ 
 width:auto; 
 margin:20px 50px 20px 80px; 
-} 
+}
 .blog_card{ 
 width:355px; 
-display: 
-inline-block; 
+display: inline-block; 
 margin: 15px; 
-background: rgb(230,230,230)
-} 
+background: #fbf5f5;
+height: 600px;
+}
 .card_image{ 
 background: url("../Images/blog1.png"); 
-width: 350px; 
+width: 355px; 
 height: 200px; 
 background-size: 100%; 
 } 
 .card_image2{ 
 background: url("../Images/blog2.jpg"); 
-width: 350px; 
+width: 355px; 
 height: 200px; 
 background-size: 100%; 
 } 
 .card_title{ 
 margin: 10px 0px 40px 10px; 
-font-size: large; 
+font-size: 40px; 
 } 
 .card_description{ 
 margin: 10px;
