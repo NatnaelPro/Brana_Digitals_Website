@@ -113,3 +113,47 @@ processes6.addEventListener('mouseleave', function mouseLeaveEvent(){
 // function runMouseLeaveEvent(e){
 
 // }
+
+
+// WEBSITE DEVELOPEMENT FEATURE
+let description = document.getElementById('fact-description');
+let f1 = document.getElementById('f1');
+f1.addEventListener('click', function(){
+    console.log('hello');
+    document.getElementById('desc-para').remove();
+    let p = document.createElement('p');
+    let content = document.createTextNode("when your website comes on top in search engine results page, you are easily found by potential customers. We can fully assist you in developing web solutions that guarantee your visibility while being suitable for crawling and indexation.");
+    p.setAttribute('id', 'desc-para')
+    p.appendChild(content);
+    description.appendChild(p);
+});
+let f2 = document.getElementById('f2');
+f2.addEventListener('click', function(){
+    console.log('hello');
+    document.getElementById('desc-para').remove();
+    let p = document.createElement('p');
+    let content = document.createTextNode("About 40% of site visitors leave immediately in case the site loading time is more than 3 seconds, and 75% never return to the website that took more than 4 seconds to load. Web development service ensures the perfect load speed of your site by minimizing HTTP requests, reducing server response time, using CDNs, APIs, enabling compression and browser caching, upgrading the DB, sharding, etc.");
+    p.setAttribute('id', 'desc-para')
+    p.appendChild(content);
+    description.appendChild(p);
+});
+let f3 = document.getElementById('f3');
+f3.addEventListener('click', function(){
+    console.log('hello');
+    document.getElementById('desc-para').remove();
+    let p = document.createElement('p');
+    let content = document.createTextNode("We work with all modern browsers and devices and implement the best practices to make our web solutions and the content browser compatible and device-friendly. Our web development specialists work with responsive style sheets, CSS frameworks, javascript libraries, W3C validation, etc., and make websites suitable for any browser and device.");
+    p.setAttribute('id', 'desc-para')
+    p.appendChild(content);
+    description.appendChild(p);
+});
+let f4 = document.getElementById('f4');
+f4.addEventListener('click', function(){
+    console.log('hello');
+    document.getElementById('desc-para').remove();
+    let p = document.createElement('p');
+    let content = document.createTextNode("A good web solution helps its users find what they look for with a click. An understandable menu, simple navigation, “F-pattern” content layout, good site organization, breadcrumbs, dropdowns, clickable items, etc. present attributes of good website that users will love. We are ready to create value for your users through the “intuitive navigation” approach.");
+    p.setAttribute('id', 'desc-para')
+    p.appendChild(content);
+    description.appendChild(p);
+});

@@ -694,18 +694,44 @@ header {
   margin-bottom: 50px;
 }
 .services-section-container .main-content a {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 500;
-  width: 280px;
-  height: 80px;
-  background-color: #ff8800;
+  width: 200px;
+  height: 55px;
+  /* background-color: #ff8800; */
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 2px solid #ff8800;
+  position: relative;
+  outline: none;
   /* margin: 65px 0px 0px 150px; */
 }
 .services-section-container .main-content a:hover {
-  opacity: 0.8;
+  color: #fff;
+  cursor: pointer;
+}
+.services-section-container .main-content a:before {
+  transition: .5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  background-color: #ff8800;
+  content: "GET STARTED";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-section-container .main-content a:hover:before {
+  transition: .5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
 }
 
 .technologies-container {
@@ -728,72 +754,80 @@ header {
   align-items: center;
 }
 .technologies .html5-logo {
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
   background: url('../Icons/html5.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 80px;
+  background-size: 80px; */
 }
 .technologies .css3-logo {
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
   background: url('../Icons/css3.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 80px;
+  background-size: 80px; */
 }
 .technologies .bootstrap-logo {
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
   background: url('../Icons/bootstrap.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 80px;
+  background-size: 80px; */
 }
 .technologies .javascript-logo {
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
   background: url('../Icons/javaScript.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 80px;
+  background-size: 80px; */
 }
 .technologies .react-logo {
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
   background: url('../Icons/react.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 80px;
+  background-size: 80px; */
 }
 .technologies .angular-logo {
-  width: 80px;
-  height: 90px;
+  /* width: 80px;
+  height: 90px; */
   background: url('../Icons/angular.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 80px;
+  background-size: 80px; */
 }
 .technologies .nodejs-logo {
-  width: 80px;
-  height: 90px;
+  /* width: 80px;
+  height: 90px; */
   background: url('../Icons/nodejs.svg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 80px;
+  background-size: 80px; */
 }
 .technologies .php-logo {
+  /* width: 80px;
+  height: 80px; */
+  background: url('../Icons/php.svg');
+  /* background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 80px; */
+}
+.technologies .logos {
   width: 80px;
   height: 80px;
-  background: url('../Icons/php.svg');
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
