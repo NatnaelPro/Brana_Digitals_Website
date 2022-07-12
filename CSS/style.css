@@ -29,7 +29,7 @@ header {
   background-position: center;
   outline: none;
   background-size: 150px;
-  margin: 0px 0px 0px 25px;
+  margin: 0px 0px 0px -60px;
 }
 .side-menu {
   height: 100px;
@@ -46,7 +46,6 @@ header {
   background-color: #ffffff;
   margin: 15px;
   color: rgb(73, 67, 67);
-  
 }
 
 .side-menu li a:after {
@@ -707,6 +706,7 @@ header {
   border: 2px solid #ff8800;
   position: relative;
   outline: none;
+  z-index: 0;
   /* margin: 65px 0px 0px 150px; */
 }
 .services-section-container .main-content a:hover {
@@ -842,8 +842,8 @@ header {
 }
 .facts-about-us-container {
   width: 1200px;
-  height: 500px;
-  margin: 0px 0px 50px 76px;
+  height: 400px;
+  margin: 0px 0px 150px 76px;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -852,7 +852,7 @@ header {
 }
 .facts-about-us-container .fact-titles {
   width: 1200px;
-  height: 150px;
+  height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -866,10 +866,9 @@ header {
   width: 300px;
   height: 150px;
   /* background-color: #EF4910; */
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .facts-about-us-container .fact-titles .fact {
-  margin-bottom: 20px;
   font-size: 20px;
   font-weight: 500;
   color: #413b3b;
@@ -885,33 +884,49 @@ header {
 .facts-about-us-container .fact-titles .active-fact .fact {
   color: #efecec;
 }
-.facts-about-us-container .fact-titles .roket-icon {
+.facts-about-us-container .fact-titles .seo-icon {
   width: 50px;
   height: 60px;
-  /* fill: #EF4910; */
-  background: url('../Icons/roket.svg');
+  background: url('../Icons/seo-new-orange.svg');
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
   background-size: 40px;
 }
-.facts-about-us-container .fact-titles .resposive-icon {
-  width: 50px;
-  height: 60px;
-  background: url('../Icons/resposive.svg');
-  background-repeat: no-repeat;
+.facts-about-us-container .fact-titles .roket-icon {
+  /* width: 50px;
+  height: 60px; */
+  background: url('../Icons/roket.svg');
+  /* background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 50px;
+  background-size: 40px; */
+}
+.facts-about-us-container .fact-titles .resposive-icon {
+  /* width: 50px;
+  height: 60px; */
+  background: url('../Icons/resposive.svg');
+  /* background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 50px; */
 }
 .facts-about-us-container .fact-titles .user-friendly-icon {
+  /* width: 50px;
+  height: 60px; */
+  background: url('../Icons/man-dev.svg');
+  /* background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  background-size: 50px; */
+}
+.facts-about-us-container .fact-titles .icon {
   width: 50px;
   height: 60px;
-  background: url('../Icons/man-dev.svg');
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
-  background-size: 50px;
+  background-size: 40px;
 }
 .facts-about-us-container .facts-descriptions {
   display: flex;
@@ -926,19 +941,31 @@ header {
   width: 200px;
   height: 200px;
   background: url('../Icons/seo-new.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  outline: none;
-  background-size: 200px;
-  margin-left: -80px;
-  /* background-color: #fbf5f5; */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  outline: none !important;
+  background-size: 200px !important;
+  margin-left: -80px !important;
+  transition: .8s;
+}
+.seo-new-white {
+  background: url('../Icons/seo-new.svg') !important;
+}
+.roket-white {
+  background: url('../Icons/roket-white.svg') !important;
+} 
+.responsive-white {
+  background: url('../Icons/resposive-white.svg') !important;
+}
+.man-dev-white {
+  background: url('../Icons/man-dev-white.svg') !important;
 }
 .facts-about-us-container .facts-descriptions .fact-description {
-  width: 600px;
-  font-size: 25px;
-  color: #efefef;
+  width: 700px;
+  font-size: 21px;
+  color: #f2f0f0;
   font-weight: 300;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .dev-process-container {
@@ -968,6 +995,7 @@ header {
   width: 200px;
   height: 100px;
   border-left: #413b3b solid 2px;
+
   /* background-color: blueviolet; */
   /* display: none; */
 }
@@ -976,6 +1004,7 @@ header {
   margin-top: 30px;
   font-size: 26px;
   color: #413b3b;
+
   /* background-color: aqua; */
 }
 .dev-process-container .processes .process-number {
@@ -1029,7 +1058,8 @@ header {
   font-weight: 900;
   color: #FF8800;
   margin-top: -20px;
-}
+} 
+
 
 /* Search Engine Optimization */
 
@@ -1676,13 +1706,11 @@ header {
 .privacy-policy-bullet-list ul {
   list-style-type: disc;
 }
-
 .privacy-policy-bullet-list ul li{
   font-size: 20px;
   padding-right: 70px;
   padding-bottom: 8px;
   margin-left: 100px;
-
 }
 
 /* Terms and Condition section */
@@ -1702,7 +1730,7 @@ header {
 }
 .terms-paragraph{
   padding: 10px 50px 10px 70px;
-  line-height: 30px;
+  line-height: 30px;;
   font-size: 20px;
   
 }
@@ -1730,7 +1758,6 @@ header {
   padding-right: 70px;
   padding-bottom: 8px;
   margin-left: 100px;
-
 }
 .footer-space{
   margin-top: 100px;

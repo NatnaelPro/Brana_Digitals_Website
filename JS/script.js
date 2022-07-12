@@ -118,6 +118,7 @@ processes6.addEventListener('mouseleave', function mouseLeaveEvent(){
 // WEBSITE DEVELOPEMENT FEATURE
 let description = document.getElementById('fact-description');
 let f1 = document.getElementById('f1');
+let factIcon = document.getElementById('fact-icon');
 f1.addEventListener('click', function(){
     console.log('hello');
     document.getElementById('desc-para').remove();
@@ -126,16 +127,26 @@ f1.addEventListener('click', function(){
     p.setAttribute('id', 'desc-para')
     p.appendChild(content);
     description.appendChild(p);
+
+    removeActiveClass();
+    f1.classList.add('active-fact');
+    removeIconClass();
+    document.getElementById('fact-icon').classList.add('seo-new-white'); 
 });
 let f2 = document.getElementById('f2');
 f2.addEventListener('click', function(){
-    console.log('hello');
+    console.log('hellooooo');
     document.getElementById('desc-para').remove();
     let p = document.createElement('p');
     let content = document.createTextNode("About 40% of site visitors leave immediately in case the site loading time is more than 3 seconds, and 75% never return to the website that took more than 4 seconds to load. Web development service ensures the perfect load speed of your site by minimizing HTTP requests, reducing server response time, using CDNs, APIs, enabling compression and browser caching, upgrading the DB, sharding, etc.");
     p.setAttribute('id', 'desc-para')
     p.appendChild(content);
     description.appendChild(p);
+
+    removeActiveClass();
+    f2.classList.add('active-fact');
+    removeIconClass();
+    document.getElementById('fact-icon').classList.add('roket-white');
 });
 let f3 = document.getElementById('f3');
 f3.addEventListener('click', function(){
@@ -146,6 +157,12 @@ f3.addEventListener('click', function(){
     p.setAttribute('id', 'desc-para')
     p.appendChild(content);
     description.appendChild(p);
+
+    removeActiveClass();
+    f3.classList.add('active-fact');
+
+    removeIconClass();
+    document.getElementById('fact-icon').classList.add('responsive-white'); 
 });
 let f4 = document.getElementById('f4');
 f4.addEventListener('click', function(){
@@ -156,4 +173,31 @@ f4.addEventListener('click', function(){
     p.setAttribute('id', 'desc-para')
     p.appendChild(content);
     description.appendChild(p);
+
+    removeActiveClass();
+    f4.classList.add('active-fact');
+    removeIconClass();
+    document.getElementById('fact-icon').classList.add('man-dev-white'); 
 });
+
+function removeActiveClass() {
+    if(f1.classList.contains('active-fact'))
+        f1.classList.remove('active-fact');
+    else if(f2.classList.contains('active-fact'))
+        f2.classList.remove('active-fact');
+    else if(f3.classList.contains('active-fact'))
+        f3.classList.remove('active-fact');
+    else if(f4.classList.contains('active-fact'))
+        f4.classList.remove('active-fact');
+}
+
+function removeIconClass() {
+    if(factIcon.classList.contains('roket-white'))
+        factIcon.classList.remove('roket-white');
+    else if(factIcon.classList.contains('seo-new-white'))
+        factIcon.classList.remove('seo-new-white');
+    else if(factIcon.classList.contains('responsive-white'))
+        factIcon.classList.remove('responsive-white');
+    else if(factIcon.classList.contains('man-dev-white'))
+        factIcon.classList.remove('man-dev-white'); 
+}
