@@ -41,7 +41,7 @@
         <section class="services-section-container">
             <h1 class="services-head">Web Development Services</h1>
             <div class="main-content">
-                <p class="in-main-content">our web development company will build, maintain and grow your digital experience with web app development services of best quality tailored to the needs of your business domain. with back end and front end web development we provide, you will be able to achieve any business goal faster than your competitors. opting for our custom web development service means that you get responsive web applications and sites created with the most relevant and reliable techs. choosing a company of wide expertise in web development, you choose a modern web solution for delivering the best user experience to your customers.</p>
+                <p class="in-main-content">Our web development company will build, maintain and grow your digital experience with web app development services of the best quality tailored to the needs of your business domain. with the back end and front end web development we provide, you will be able to achieve any business goal faster than your competitors. opting for our custom web development service means that you get responsive web applications and sites created with the most relevant and reliable techs. choosing a company of wide expertise in web development, you choose a modern web solution for delivering the best user experience to your customers.</p>
                 <a  href="#">Get Started</a>
             </div>
         </section>
@@ -104,7 +104,7 @@
             </div>
             <div class="facts-descriptions">
                 <div class="fact-icon desc-content" id="fact-icon"></div>
-                <div class="fact-description desc-content" id="fact-description"> <p id='desc-para'> when your website comes on top in search engine results page, you are easily found by potential customers. We can fully assist you in developing web solutions that guarantee your visibility while being suitable for crawling and indexation. </p></div>
+                <div class="fact-description desc-content" id="fact-description"> <p id='desc-para'> when your website comes on top of search search engine results page, you are easily found by potential customers. We can fully assist you in developing web solutions that guarantee your visibility while being suitable for crawling and indexation. </p></div>
             </div>
         </div>
         <h1 class="headers service-headers">Our Web Development Process</h1>
@@ -208,9 +208,10 @@
             <div class="footers footer-contact-us">
                 <ul>
                     <li class="footer-title">Contact Us</li>
-                    <li>BranaDigital@gmail.com</li>
+                    <li>BranaDigitals@gmail.com</li>
                     <li>Addis Ababa, Ethiopia</li>
-                    <li style="font-size: 13px;">+251 946391774</li>
+                    <li style="font-size: 13px;">+251 940655449</li>
+                    <li style="font-size: 13px;">+251 922972119</li>
                     <li><a href="contact_us.html">More Contact</a></li>
                 </ul>
             </div>
@@ -220,5 +221,93 @@
         </div>
     </main>
     <script src="JS/script.js"></script>
+    <script>
+        let description = document.getElementById('fact-description');
+        let f1 = document.getElementById('f1');
+        let factIcon = document.getElementById('fact-icon');
+        f1.addEventListener('click', function(){
+            console.log('hello');
+            document.getElementById('desc-para').remove();
+            let p = document.createElement('p');
+            let content = document.createTextNode("when your website comes on top in search engine results page, you are easily found by potential customers. We can fully assist you in developing web solutions that guarantee your visibility while being suitable for crawling and indexation.");
+            p.setAttribute('id', 'desc-para')
+            p.appendChild(content);
+            description.appendChild(p);
+
+            removeActiveClass();
+            f1.classList.add('active-fact');
+            removeIconClass();
+            document.getElementById('fact-icon').classList.add('seo-new-white'); 
+        });
+        let f2 = document.getElementById('f2');
+        f2.addEventListener('click', function(){
+            console.log('hellooooo');
+            document.getElementById('desc-para').remove();
+            let p = document.createElement('p');
+            let content = document.createTextNode("About 40% of site visitors leave immediately in case the site loading time is more than 3 seconds, and 75% never return to the website that took more than 4 seconds to load. Web development service ensures the perfect load speed of your site by minimizing HTTP requests, reducing server response time, using CDNs, and APIs, enabling compression and browser caching, upgrading the DB, sharding, etc.");
+            p.setAttribute('id', 'desc-para')
+            p.appendChild(content);
+            description.appendChild(p);
+
+            removeActiveClass();
+            f2.classList.add('active-fact');
+            removeIconClass();
+            document.getElementById('fact-icon').classList.add('roket-white');
+        });
+        let f3 = document.getElementById('f3');
+        f3.addEventListener('click', function(){
+            console.log('hello');
+            document.getElementById('desc-para').remove();
+            let p = document.createElement('p');
+            let content = document.createTextNode("We work with all modern browsers and devices and implement the best practices to make our web solutions and the content browser compatible and device-friendly. Our web development specialists work with responsive style sheets, CSS frameworks, javascript libraries, W3C validation, etc., and make websites suitable for any browser and device.");
+            p.setAttribute('id', 'desc-para')
+            p.appendChild(content);
+            description.appendChild(p);
+
+            removeActiveClass();
+            f3.classList.add('active-fact');
+
+            removeIconClass();
+            document.getElementById('fact-icon').classList.add('responsive-white'); 
+
+        });
+        let f4 = document.getElementById('f4');
+        f4.addEventListener('click', function(){
+            console.log('hello');
+            document.getElementById('desc-para').remove();
+            let p = document.createElement('p');
+            let content = document.createTextNode("A good web solution helps its users find what they look for with a click. An understandable menu, simple navigation, “F-pattern” content layout, good site organization, breadcrumbs, dropdowns, clickable items, etc. present attributes of a good website that users will love. We are ready to create value for your users through the “intuitive navigation” approach.");
+            p.setAttribute('id', 'desc-para')
+            p.appendChild(content);
+            description.appendChild(p);
+
+            removeActiveClass();
+            f4.classList.add('active-fact');
+            removeIconClass();
+            document.getElementById('fact-icon').classList.add('man-dev-white'); 
+        });
+
+        function removeActiveClass() {
+            if(f1.classList.contains('active-fact'))
+                f1.classList.remove('active-fact');
+            else if(f2.classList.contains('active-fact'))
+                f2.classList.remove('active-fact');
+            else if(f3.classList.contains('active-fact'))
+                f3.classList.remove('active-fact');
+            else if(f4.classList.contains('active-fact'))
+                f4.classList.remove('active-fact');
+        }
+
+        function removeIconClass() {
+            if(factIcon.classList.contains('roket-white'))
+                factIcon.classList.remove('roket-white');
+            else if(factIcon.classList.contains('seo-new-white'))
+                factIcon.classList.remove('seo-new-white');
+            else if(factIcon.classList.contains('responsive-white'))
+                factIcon.classList.remove('responsive-white');
+            else if(factIcon.classList.contains('man-dev-white'))
+                factIcon.classList.remove('man-dev-white'); 
+        }
+    </script>
 </body>
 </html>
