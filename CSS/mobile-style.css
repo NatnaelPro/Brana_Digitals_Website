@@ -4,6 +4,7 @@
     body {
         background-color: red;
     }
+    /* BLOG */
     .blog_hero {
         padding-right: 60px;
         background-position: right bottom;
@@ -12,6 +13,24 @@
     .blog_hero_description{
         font-size: 65px;
     }
+    .technologies-container {
+        padding: 60px 10px;
+    }
+    .facts-about-us-container {
+        width: 950px;
+    }
+    .facts-about-us-container .fact-titles {
+        width: 950px;
+    }
+    .facts-about-us-container .facts-descriptions .fact-icon {
+        width: 150px;
+        height: 150px; 
+        background-size: 120px !important;
+    }
+    .facts-about-us-container .facts-descriptions .fact-description {
+        font-size: 19px;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -19,6 +38,7 @@
     body {
         background-color: blue;
     }
+    /* BLOG */
     .blog_hero {
         height: 700px;
         background-position: right bottom;
@@ -26,6 +46,54 @@
     }
     .blog_hero_description{
         font-size: 65px;
+    }
+    /* Web Development */
+    .services-section-container {
+        height: 750px;
+        padding: 50px 50px;
+    }
+    .services-head {
+        font-size: 3rem !important;
+    }
+
+    .technologies-container {
+        padding: 60px 10px;
+    }
+    .technologies {
+        flex-basis: 200px;
+    }
+    .service-headers {
+        font-size: 50px;
+    }
+    .facts-about-us-container {
+        display: none;
+    }
+    .facts-about-us-container-for-mobile{
+        /* width: 90%;
+        margin: auto; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        width: 100% !important;
+    }
+    .row {
+        width: 100% !important;
+    }
+    .card {
+        margin: 30px;
+        width: 22rem !important;
+        line-height: 1.3;
+        background-color: #fbf5f5;
+    }
+    .card-title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .card-text {
+        text-align: center;
+    }
+    .card img {
+        margin: 30px 0;
     }
     
 }
@@ -35,17 +103,47 @@
     body {
         background-color: yellow;
     }
+    /* BLOG */
     .blog_hero {
         height: 600px;
     }
     .blog_hero_description{
         font-size: 55px;
     }
+
+    /* Web Development */
+    .services-section-container {
+        height: 800px;
+        padding: 50px 50px;
+    }
+    .services-head {
+        font-size: 2rem !important;
+    }
+    .services-section-container .main-content p {
+        font-size: 18px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
+    body {
+        background-color: pink;
+    }
+    /* Web Development */
+    .services-section-container {
+        height: 830px;
+        padding: 50px 40px;
+    }
+    .services-head {
+        font-size: 25px !important;
+    }
+    .services-section-container .main-content p {
+        font-size: 17px;
+    }
+    .service-headers {
+        font-size: 40px;
+    }
+    
 }
 
 /* Extra small devices (phones, 600px and down) */
