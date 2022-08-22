@@ -1071,9 +1071,10 @@ header {
 .main-services-description{
   color: #473E3E;
   font-size: 18px;
-  width: 1200px;
-  margin: 0px 0px 40px 80px ;
+  width: 100%;
+  padding: 0px 30px 0px 80px ;
   line-height: 1.7;
+  margin-bottom: 50px;
 }
 .website-analysis-icon{
   /* width: 60px;
@@ -1358,27 +1359,26 @@ header {
 
 .dev-types{
   width: auto;
-  height: 400px;
+  min-height: 400px;
   justify-content: space-around;
   align-items: center;
   display: flex;  
-  padding: 0 50px;
   margin-bottom: 100px;
+  padding: 0 50px;
   
 }
 .dev-types .dev-type{
-  width: 400px;
+  width: 350px;
   height: 300px;
   background-color: #FBF5F5;
-  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   padding: 60px;
-  /* justify-content: center; */
   align-items: center;
-  margin: 0 30px;
+  /* margin: 0 30px; */
   box-shadow: 0 12px 8px 0 rgba(0,0,0,.1);
   transition: .5s;
+  margin-bottom: 30px;
 }
 .dev-types .dev-type:hover {
   box-shadow: 0 8px 30px 0 rgba(0,0,0,.3);
@@ -1420,7 +1420,7 @@ header {
 }
 .mob-sols{
   width: auto;
-  height: 1500px;
+  min-height: 1500px;
   /* background-color: blueviolet; */
   display: flex;
   flex-wrap: wrap;
@@ -1433,6 +1433,7 @@ header {
   flex-basis: 540px;
   height: 350px;
   box-shadow: 0 12px 8px 0 rgba(0,0,0,.1);
+  margin-bottom: 70px;
 }
 .mob-sols .mob-sol .mob-sol-header{
   width: auto;
